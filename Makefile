@@ -1,4 +1,2 @@
-CC=clang
-
 kilo: kilo.c
-	$(CC) kilo.c -o kilo -Wall -Wextra -pedantic -std=c11
+	clang kilo.c -o kilo -Wall -Wextra -pedantic -std=c11
